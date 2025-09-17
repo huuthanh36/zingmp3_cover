@@ -4,7 +4,7 @@ import icons from "../utils/icons";
 const { FaSearch } = icons;
 const Search = () => {
   return (
-    <div className="w-full flex items-center bg-[#dde4e4] rounded-[20px]">
+    <div className="w-full flex items-center bg-[#dde4e4] rounded-[20px] ">
       <span className="h-10 px-4 flex items-center justify-center text-gray-500 ">
         <FaSearch size={24} />
       </span>
