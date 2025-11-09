@@ -1,4 +1,4 @@
-import { Home, Login, Public } from "./containers/public";
+import { Home, Login, Public, Personal } from "./containers/public";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import path from "./utils/path";
 import { useEffect } from "react";
@@ -19,6 +19,7 @@ function App() {
           <Route path={path.HOME} element={<Home />} />
           <Route path={path.LOGIN} element={<Login />} />
           <Route path={path.START} element={<Home />} />
+          <Route path={path.MYMUSIC} element={<Personal />} />
         </Route>
       </Routes>
     </div>

@@ -3,5 +3,6 @@ const path = {
   HOME: "",
   LOGIN: "login",
   START: "*",
+  MYMUSIC: "mymusic",
 };
 export default path;

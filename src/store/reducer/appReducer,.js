@@ -11,7 +11,7 @@ const appReducer = (state = initialState, action) => {
       return {
         ...state,
         banner:
-          action.homeData?.find((item) => item.sectionType === "banner")
+          action.homeData?.find((item) => item.sectionType === "weekChart")
             ?.items || null,
       };
 
